@@ -40,6 +40,7 @@ public class TowerController : MonoBehaviour
         else
         {
             //zoom out
+            mainCam.inFirstPerson = false;
             Camera.main.transform.position = camCurrentPosition;
         }
     }
